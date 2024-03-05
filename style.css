@@ -1,0 +1,106 @@
+.body{
+    background-color:#000c14;
+    color: whitesmoke;
+    padding: 40px;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    background-image:url("../myWebsite/assets/images/background.png")
+}
+a{
+    color: whitesmoke;
+   text-decoration: none;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    
+}
+.homelink{
+    display: flex;
+    gap: 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    
+}
+.lenzy{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 150px;
+    gap: 70px;
+}
+.heromain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    align-items: center;
+}
+.heromain p{
+    max-width: 400px;
+    max-width: 400px;
+}
+.imghome {
+    border-radius: 50px;
+    width:400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0;
+}
+.prenom{
+    font-size: 45px;
+    font-weight: 700;
+    font-style: oblique 50deg;
+}
+
+
+.formationlist ul{
+    list-style-type: none;
+    margin: 25px 0px;
+    padding: 0px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 150px;
+}
+
+.formation{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.formation p{
+    max-width: 400px;
+}
+.content span{
+    font-size: 45px;
+    font-weight: 700;
+}
+.content strong{
+    font-weight: 900;
+    font-size: 27px;
+}
+
