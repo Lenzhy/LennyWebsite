@@ -1,13 +1,14 @@
 .body{
     background-color:#000c14;
     color: whitesmoke;
-    padding: 40px;
     margin: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 25px;
-    background-image:url("../myWebsite/assets/images/background.png")
+    background-image:url("../myWebsite/assets/images/background.png");
+    background-size:cover;
+    scroll-behavior: smooth;
 }
 a{
     color: whitesmoke;
@@ -16,12 +17,9 @@ a{
 .header{
     display: flex;
     flex-direction: column;
+    padding: 40px;
 }
-.header{
-    display: flex;
-    flex-direction: column;
-    
-}
+
 .homelink{
     display: flex;
     gap: 15px;
@@ -78,11 +76,13 @@ a{
     margin: 25px 0;
     padding: 0;
 }
-.content{
+#content{
     display: flex;
     justify-content: center;
     gap: 70px;
     padding: 150px;
+
+    background-color:#061621;
 }
 /*background for text*/
 
@@ -97,15 +97,16 @@ a{
 .formation{
     display: flex;
     flex-direction: column;
+
     }
 .formation p{
     max-width: 400px;
 }
-.content span{
+#content span{
     font-size: 45px;
     font-weight: 700;
 }
-.content strong{
+#content strong{
     font-weight: 900;
     font-size: 27px;
 }
@@ -114,12 +115,14 @@ a{
     flex-direction: column;
     align-items: center;
     padding: 150px 0;
+    background-image:url("../myWebsite/assets/images/background.png");
+    background-color: #0b2438;
 }
 .artpresentation{
     display: flex;
     justify-content: center;
     max-width: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 .artpresentation p{
     display: flex;
@@ -127,6 +130,7 @@ a{
     justify-content: center;
     align-items: center;
     margin: 0;
+    gap: 60px;
 }
 .artpresentation span{
     font-size: 45px;
@@ -166,4 +170,7 @@ a{
 }
 .view a{
     text-decoration: none;
+}
+#contact{
+    background-color: #000c14;
 }
