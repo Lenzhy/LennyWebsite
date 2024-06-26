@@ -271,7 +271,7 @@ h1{
     flex-wrap: wrap;
     padding: 5%;
     font-size: 30px;
-    background-image:url("../myWebsite/assets/images/background.png");
+    background-image:url("./assets/images/bckground.png");
 }
 /*form*/
 footer span{
