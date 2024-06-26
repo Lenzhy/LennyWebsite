@@ -11,7 +11,7 @@
     font-weight: 400;
     font-style: normal;
     font-size: 25px;
-    background-image:url("../myWebsite/assets/images/background.png");
+    background-image:url("./myWebsite/assets/images/background.png");
     background-size:cover;
     scroll-behavior: smooth;
 
