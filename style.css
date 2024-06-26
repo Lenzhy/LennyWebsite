@@ -250,14 +250,15 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 40%;
+    width: 500px;
+    height: 400px;
     background-color: #061621;
     border-radius: 15px;
     padding: 10px;
 }
 .projectCase img{
-    width: 590px ;
-    height: 310px;
+   width: 100%;
+   max-height: 250px;
 
 }
 
