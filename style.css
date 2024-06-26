@@ -186,7 +186,7 @@ h1{
 }
 
 
-/*art*/
+/*art page*/
 .galleryContainer{
     display: flex;
     justify-content: center;
@@ -219,9 +219,37 @@ h1{
     display: flex;
     justify-content: center;
 }
-/*art*/
+/*art page*/
 
+/*project page*/
+.projectContainer{
+    padding: 100px 50px;
+    margin: 100px 0;
+}
+.projectContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.projectCase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 40%;
+    background-color: #061621;
+    border-radius: 15px;
+    padding: 10px;
+}
+.projectCase img{
+    width: 590px ;
+    height: 310px;
 
+}
+
+/*project page*/
 
 /*footer*/
 .footerContainer {
