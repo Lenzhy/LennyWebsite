@@ -1,6 +1,11 @@
+:root{
+    --purwhite: #ffffff;
+    --white:  #eeeeee;
+    --textwhite:  #d9d9d9;
+}
 .body{
     background-color:#000c14;
-    color: whitesmoke;
+    color:var(--purwhite);
     margin: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -9,9 +14,11 @@
     background-image:url("../myWebsite/assets/images/background.png");
     background-size:cover;
     scroll-behavior: smooth;
+
 }
+
 a{
-    color: whitesmoke;
+    color: var(--purwhite);
    text-decoration: none;
 }
 .header{
@@ -121,10 +128,15 @@ a{
 }
 .experienceGroup h2{
     font-size: 35px;
+    color: var(--white);
 }
 .experienceGroup h3{
     margin-top: 0;
     font-size: 29px;
+    color: var(--white);
+}
+.experienceGroup p{
+    color: var(--textwhite);
 }
 h1{
     font-size: 40px;
@@ -245,7 +257,7 @@ footer span{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    color: white;
+    color:var(--purwhite);
     width: 80%;
     gap: 15px;
     font-size: 16px;
